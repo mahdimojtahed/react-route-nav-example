@@ -32,8 +32,13 @@ function App() {
           <Route path='/books' element={<Books />} >
           </Route>
           <Route path='books/:bookId' element={<Book />}/>
-          
         </Routes>
+
+        <footer>
+          Footer Section
+        </footer>
+
+        
       </Router>
   );
 }
